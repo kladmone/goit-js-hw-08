@@ -38,4 +38,7 @@ form.addEventListener('submit', e => {
     message: messageInput.value,
   };
   console.log(formData);
+
+  emailInput.value = '';
+  messageInput.value = '';
 });
